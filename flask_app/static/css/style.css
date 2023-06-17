@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar_hide {
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+}
+
+.navbar_show {
+    transform: translateX(0%);
+    transition: transform 0.3s;
+}
